@@ -7,7 +7,7 @@ body{
 	position:relative;
 }
 h1,h2,h3,h4,h5,h6{
-	font-weight:500;
+
 }
 a,button{
 	-webkit-transition:all 0.3s ease;
@@ -96,18 +96,52 @@ a:hover{
 /*section-title*/
 .section-title {
 	text-align: center;
+	padding-top: 0px;
+}
+.section-title2 {
+	padding-top: 270px;
+
+	text-align: center;
+}
+.section-title2 p {
+	margin: 8px;
+	color: #919898;
 }
 .section-title h2 {
-	color:#000;
+	color: #919898;
 	font-size: 44px;
 	text-transform: uppercase;
 	position: relative;
 	font-weight: 700;
+
+}
+.about .section-title p {
+	margin: 8px;
+	color: #919898;
 }
 .section-title h2 span {
 	color: #1DA1F3;
 }
 /*breadcrumb*/
+.blog2 .section-title .left{
+	margin-bottom: 15px;
+
+}
+.blog .section-title p {
+	margin: 8px;
+    font-weight: lighter;
+
+}
+img.left{
+	margin-bottom: 20px;
+}
+img.left2{
+	margin-top: 20px;
+}
+img.left3{
+	margin-bottom: 20px;
+	margin-left: -290px;
+}
 .breadcrumb{
 	padding:80px 0px 0px 0px ;
 	margin:0;
@@ -300,6 +334,8 @@ a:hover{
 }
 .slider .text {
 	margin-top: 227px;
+	color: #919898;
+	font-weight: 5;
 
 }
 .slider h1 {
@@ -309,10 +345,13 @@ a:hover{
 	margin: 0 0 30px;
 }
 .slider p{
-	color: #000000;
+	color: #919898;
+	font-weight: 5;
+	margin: 5px;
 }
 .slider .button{
 	margin-top:30px;
+	font-weight: 5;
 }
 .slider .button .btn{
 	margin-right:10px;
@@ -333,10 +372,11 @@ a:hover{
 .slider .button .primary{
 	background:#1DA1F3;
 	color: #ffffff;
+	font-weight: lighter;
 }
 .slider .button .primary:hover{
 	color:#333;
-	background:#fff;
+	background: #919898;
 }
 /*=========================
 	End Slider CSS
@@ -373,9 +413,9 @@ a:hover{
 	margin-top:100px;
     margin-left: 300px;
 	text-indent: -290px;
-
-
-
+}
+.about .section-title {
+	color: #3c3c3c;
 }
 .about .single-about .cv a:hover{
 	background: #919898;
@@ -1050,8 +1090,18 @@ a:hover{
 .blog{
 	background: #ffffff;
 }
-.blog .section-title{
-	margin-bottom:20px;
+.blog2 .section-title. h1{
+	left: 200px;
+	color: #1da1f3;
+}
+.blog .section-title p{
+    font-weight: lighter;
+	color: #919898;
+}
+.blog .section-title p{
+	font-weight: lighter;
+	color: #919898;
+
 }
 .blog .single-news {
 	background: #ffffff;
@@ -1061,20 +1111,47 @@ a:hover{
 	position:relative;
 }
 .blog .single-news img{
-
-	width:170%;
-
+	width:160%;
 	height: 300%;
+	-webkit-transition:all 2s ease;
+	-moz-transition:all 2s ease;
+	transition:all 2s ease;
+}
+.news-head1 span{
+	color: #FFFFFF;
 
+	position: absolute;
+	bottom: 8px;
+	right: 166px;
+}
+.news-head2 span{
+	color: #FFFFFF;
+
+	position: absolute;
+	bottom: 8px;
+	right: 216px;
+}
+.news-head3 span{
+	color: #FFFFFF;
+
+	position: absolute;
+	bottom: 8px;
+	right: 26px;
+}
+.news-head2{
+	width:65%;
 	-webkit-transition:all 1s ease;
 	-moz-transition:all 1s ease;
 	transition:all 1s ease;
 }
-.blog .single-news:hover img{
-	transform:scale(1.1);
+
+
+.blog2 .left{
+	margin-bottom: -15px;
 }
 .blog .single-news .news-head{
 	overflow:hidden;
+
 }
 .blog .single-news .news-date {
 	background: rgb(29, 161, 243);
@@ -1190,7 +1267,9 @@ a:hover{
 /*=========================
 	End Blogs CSS
 ===========================*/
+.section-title2image linia{
 
+}
 /*=========================
 	Newsletter
 ===========================*/
