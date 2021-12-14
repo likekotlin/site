@@ -96,7 +96,7 @@ a:hover{
 /*section-title*/
 .section-title {
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 0;
 }
 .section-title2 {
 	padding-top: 270px;
@@ -236,6 +236,12 @@ img.left3{
 }
 .header .nav li:hover a,
 .header .nav li.current a{
+	border-radius: 25px;
+	box-shadow: 0 0 0 1px #1da1f3;
+	text-indent: 4px;
+	padding: 10px 10px 10px 10px;
+	margin: 15px auto;
+
 	color: #1da1f3;
 }
 .header .nav li:hover a{
@@ -264,7 +270,7 @@ img.left3{
 }
 .header .nav li .dropdown li a{
 	padding: 10px 15px;
-    color: #fff;
+    color: #ffffff;
     display: block;
 }
 .header .nav li .dropdown li i{
@@ -375,8 +381,8 @@ img.left3{
 	font-weight: lighter;
 }
 .slider .button .primary:hover{
-	color: #1da1f3;
-	background: #ffffff;
+	color: #ffffff;
+	background: #919898;
 }
 /*=========================
 	End Slider CSS
@@ -707,7 +713,7 @@ img.left3{
 
 .contact .form-head {
 	padding: 30px;
-	box-shadow: 4px 4px 10px rgba(29, 161, 243, 0);
+	box-shadow: 4px 4px 10px rgba(255, 255, 255, 0);
 	background: rgba(255, 255, 255, 0);
 }
 
@@ -715,9 +721,10 @@ img.left3{
 	margin-bottom:2px;
 }
 .contact .form-head .form {
+
    position: relative;
-	padding-top: 70px;
-	padding-left: 00px;
+	padding-top: 40px;
+	padding-left: 0px;
 }
 .contact .form-head .form .form-group .button {
     position: absolute;
@@ -725,17 +732,19 @@ img.left3{
 	left: 280px;
 }
 .contact .form input{
-	background: rgb(230, 228, 228);
+    color: #FFFFFF;
+	background: rgba(255, 255, 255, 0.13);
 	width: 40%;
     height: 46px;
     padding-left: 15px;
-	border:1px solid #1da1f3;
+	border:1px solid rgba(29, 161, 243, 0);
 	text-transform:capitalize;
 }
 .contact .form input:hover,.contact .form input:focus{
 	border-color: rgb(29, 161, 243);
 }
 .contact .form textarea{
+	color: #FFFFFF;
 	width: 30%;
 	height:200px;
     padding: 15px;
@@ -744,9 +753,9 @@ img.left3{
 	/*resize:none;*/
 }
 
-.contact .form textarea:hover,
+
 .contact .form textarea:focus{
-	border-color: rgba(29, 161, 243, 0);
+	border-color: rgba(255, 255, 255, 0);
 }
 .contact .contact-info {
 	margin-top: 49px;
@@ -777,11 +786,11 @@ ul.hr li {
 }
 .contact .contact-info span{
 	display:block;
-	color: #919898;
+	color: rgba(255, 255, 255, 0.23);
 	margin-top:10px;
 }
 .contact .contact-info span i {
-	color: rgba(29, 161, 243, 0);
+	color: rgb(29, 161, 243);
 	font-size: 20px;
 	min-width: 32px;
 }
@@ -791,18 +800,19 @@ ul.hr li {
 .contact .form .btn {
 	background: #1da1f3;
 	color: #ffffff;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
 
+
+}
+.form-head .form .form-group input{
+	color: #FFFFFF;
 }
 .contact .form .btn i{
 	margin-left:10px;
 }
 .contact .form .btn:hover{
-	background: #1da1f3;
+	background: #919898;
 	color: #ffffff;
-	border-radius: 0px 7px 0px 7px;
+
 }
 /*===========================
 	End Contact CSS
@@ -855,8 +865,8 @@ ul.hr li {
 	color: #ffffff;
 }
 .footer .social li a:hover{
-	box-shadow:0px 0px 5px #ffffff inset;
-	color: #ffffff;
+	box-shadow:0px 0px 5px #1da1f3 inset;
+	color: #919898;
 }
 .footer .social li span{
 	font-size:18px;
