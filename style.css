@@ -1,5 +1,23 @@
+.topbutton {
+	width:100px;
+	border:2px solid #1da0f2;
+	background: #1da0f2;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	cursor:pointer;
+	color: #ffffff;
+	font-family:verdana;
+	font-size:12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
 .arrow-6 {
-	margin:30px;
+	margin:90px;
 }
 .arrow-6 svg {
 	width: 250px;
@@ -187,7 +205,7 @@ img.left{
 	margin-bottom: 20px;
 }
 img.left2{
-	margin-top: -20px;
+	margin-top: -170px;
 }
 img.left3{
 	margin-bottom: 20px;
@@ -385,7 +403,7 @@ img.left3{
 	opacity:0.4;
 }
 .slider{
-	height:680px;
+	height:880px;
 	background-size:cover;
 	background-position:center;
 }
@@ -595,13 +613,20 @@ img.left3{
 .blog .single-news img{
 	width:160%;
 	height: 300%;
-	-webkit-transition:all 2s ease;
-	-moz-transition:all 2s ease;
-	transition:all 2s ease;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+
+
 }
+.blog .single-news img:hover{
+    transition: 1s;
+	transform: scale(1.2);
+}
+
+
 .news-head1 span{
 	color: #FFFFFF;
-
 	position: absolute;
 	bottom: 8px;
 	right: 166px;
@@ -756,6 +781,8 @@ img.left3{
 =============================*/
 .contact{
 	background: rgba(255, 255, 255, 0);
+	background-size: cover;
+	background-position: center;
 }
 .contact .section-title h2 {
 	padding-bottom: 0px;
@@ -900,7 +927,7 @@ ul.hr li {
 .text-block {
 	color: #919898;
 	position: center;
-	margin-left: 605px;
+	margin-left: 645px;
 }
 .footer .social li:last-child{
 }
